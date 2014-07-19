@@ -1,0 +1,17 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jmix:polymerComponents] > jmix:droppableContent mixin
+
+[jnt:customHTMLElement] > jnt:content, mix:title
+
+[jnt:polymerCoreHeaderPanel] > jnt:customHTMLElement, jmix:polymerComponents
++ * (jnt:customHTMLElement)
+
+[jnt:polymerCoreToolbar] > jnt:customHTMLElement, jmix:polymerComponents
++ * (jnt:customHTMLElement)
+
+[jnt:polymerPaperTabs] > jnt:customHTMLElement, jmix:polymerComponents
++ * (jnt:polymerPaperTab)
+
+[jnt:polymerPaperTab] > jnt:customHTMLElement, jmix:polymerComponents
