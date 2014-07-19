@@ -11,7 +11,10 @@ Requirements
 - A browser supported by Polymer, see http://www.polymer-project.org/resources/compatibility.html for more details. We
 usually recommended using Chrome as a test browser
 
-How to use 
+This project embeds version 0.3.3 of Polymer and the used componennts so it doesn't have any external dependencies 
+on Polymer.
+
+How to use
 ----------
 
 1. Deploy the module to Jahia, and then activate it on a site
@@ -26,6 +29,3 @@ http://www.polymer-project.org/docs/start/tutorial/step-1.html
 
 You should be able to click on the tabs and see the corresponding animations, and see the browser Javascript logs for
 the corresponding events.
-
-
-
